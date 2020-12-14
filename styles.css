@@ -1,0 +1,26 @@
+body{
+background-color:#bfedff;
+
+}
+
+#intro{
+  width: 320px;
+  padding: 25px;
+  border: 3px solid #3572d4;
+  margin: auto;
+
+}
+#name{
+ border-bottom: solid orange;
+}
+
+.project{
+  float: left;
+  width: 320px;
+  margin:10px;
+    
+}
+.heading{
+border-bottom: 3px solid red;
+}
+
