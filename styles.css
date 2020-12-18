@@ -4,23 +4,37 @@ background-color:#bfedff;
 }
 
 #intro{
-  width: 320px;
+  width: 1000px;
   padding: 25px;
-  border: 3px solid #3572d4;
   margin: auto;
-
+  text-align:center;
+ 
 }
 #name{
  border-bottom: solid orange;
 }
 
 .project{
-  float: left;
+
   width: 320px;
   margin:10px;
-    
+  
 }
+.project:hover{
+ transform: scale(1.1);   
+}
+#container{
+background:#ffe38f;
+padding: 0em 1em 1em;
+  display: flex;                  
+  flex-direction: row;          
+  flex-wrap: nowrap;  
+  justify-content: center; 
+}
+
 .heading{
 border-bottom: 3px solid red;
 }
-
+div {
+    display: block;
+}
